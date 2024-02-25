@@ -1,4 +1,4 @@
-import AddImages, {} from "../components/AddImages"
+import AddImages, {} from "../components/Admin/AddImages"
 
 export default function Home() {
   return (

@@ -3,8 +3,8 @@ import {
     IconButton, ImageListItem, ImageListItemBar, Stack, Tooltip
 } from '@mui/material';
 import { useEffect, useState } from 'react';
-import DeleteFile from '../firebase/DeleteFile';
-import uploadFile from '../firebase/UploadFile';
+import DeleteFile from '../../firebase/DeleteFile';
+import uploadFile from '../../firebase/UploadFile';
 import CircularProgressWithLabel from './CircularProgressWithLabel';
 
 function ProgressItem({ file }: { file: File }) {
